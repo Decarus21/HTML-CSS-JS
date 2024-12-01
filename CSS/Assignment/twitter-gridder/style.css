@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-conntainer{
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #e6ecf0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #1da1f2;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+.back-button {
+background: none;
+border: none;
+font-size: 18px;
+color: #ffffff;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cover-photo {
+    height: 150px;
+    background-color: #d9d9d9;
+}
+
+.profile-info {
+    padding: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    border: 3px solid #ffffff;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.follow-btn {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.name {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.handle {
+    color: #657786;
+    font-size: 14px;
+}
+
+.bio {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+.stats {
+    font-size: 14px;
+    color: #657786;
+}
+
+.stats span {
+    margin-right: 16px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f8fa;
+    border-top: 1px solid #e6ecf0;
+}
+
+.tab {
+    padding: 10px 0;
+    flex-grow: 1;
+    font-size: 14px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.tab-active {
+    border-bottom: 3px solid #1da1f2;
+    font-weight: bold;
+}
+
+.tweets {
+    padding: 16px;
+}
+
+.tweet {
+    padding: 10px 0;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.tweet:last-child {
+    border-bottom: none;
+}
+
+
+
