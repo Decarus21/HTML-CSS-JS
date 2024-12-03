@@ -1,0 +1,275 @@
+.header {
+width: 100%;
+background-color: mediumaquamarine;
+display: flex; 
+justify-content: space-between;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-items: center;
+}
+
+.logo {
+background-color: mediumaquamarine;
+padding: 15px 15px 15px 0px;
+margin: 20px 20px 20px 0px   ;
+}
+
+
+
+
+a {
+padding: 20px;
+font-weight: bolder;
+border-bottom: 5px solid black;
+text-decoration: none;
+font-size: larger;
+
+}
+
+
+.subtitle {
+    background-color: mediumaquamarine;
+    padding: 15px 15px 15px 0px;
+    text-align: center;
+    margin-top: 8rem;
+    margin-left: 20rem;
+    width: 100%;
+    color: black
+    
+   
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: black
+
+}
+
+.name {
+font-family: 'Times New Roman', Times, serif;
+color: black
+}
+
+.box-1 {
+    background-image: url("https://www.malibumakos.com/wp-content/uploads/2018/07/ocean-waves-1000x675.jpg");
+    background-size: 100%;
+    background-position: top;
+    color: black;
+
+}
+
+.box-2 {
+    background-image: url("https://www.snexplores.org/wp-content/uploads/2022/09/1440_SS_LED_feat-1380x776.jpg");
+    background-size: 100%;
+    background-position: bottom ;
+}
+
+.box-3 {
+    background-image: url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2015/02/thumb_720_450_1411_f.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+
+.box-4 {
+    background-image:url("https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2015/02/thumb_720_450_1411_f.jpg");
+}
+
+.box-5 {
+    background-image:url("https://hardingacademymemphis.org/wp-content/uploads/2019/11/Nov19HiM5k02.jpg") ;
+    background-position:bottom ;
+    background-size:100% ;
+}
+
+.grid-item span {
+    display:flex;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+.work {
+display: flex;
+justify-content:space-between ;
+align-items: flex-start;
+gap: 20px;
+padding: 40px 20px;
+}
+
+#work {
+    color: white;
+}
+
+.work h2 {
+    width: 20%;
+    text-align: right;
+    border-right: 5px;
+    flex-basis: 20%;
+    padding-right: 20px;
+}
+
+.work-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 85%;
+    text-align: justify;
+    padding-left: 20px;
+
+}
+
+.textbox {
+    background-color: slateblue;
+}
+
+.grid-container {
+    display: inline;
+    width: 60%;
+}
+
+.about {
+    display: flex;
+    justify-content:space-between ;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 20px;
+    color: white
+    
+}
+
+.about h2 {
+    width: 20%;
+    text-align: right;
+    border-right: 5px;
+    flex-basis: 20%;
+    padding-right: 20px;
+}
+
+.nav a {
+ color: black;
+}
+
+#big-picture {
+    position: relative;
+    width: 100%;
+    border: 5px solid mediumaquamarine;
+
+}
+
+
+#big-picture, img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+#surf-report {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: mediumaquamarine;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+#small-pictures {
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ grid-gap: 20px;
+}
+
+#led-wall {
+ position: absolute;
+ bottom: 10px;
+ left: 0px;
+ background-color: mediumaquamarine;
+ color: black;
+ font-size: 1.2em;
+ font-weight: bold;
+ line-height:1.4em ;
+ color: black
+}
+
+.small-pictures {
+  position: relative;
+    width: 100%;
+    border: 5px solid mediumaquamarine;
+}
+
+
+#caculator {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: mediumaquamarine;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height:1.4em ;
+    color: black
+}
+
+#pastel-puzzles {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: mediumaquamarine;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height:1.4em ;
+    color: black
+}
+
+#run-buddy {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: mediumaquamarine;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height:1.4em ;
+    color: black
+}
+    
+.contact {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: mediumaquamarine; 
+display: flex; 
+justify-content: space-between;
+}
+
+#phone-number {
+    color: mediumaquamarine;
+}
+
+#email {
+color: mediumaquamarine;
+}
+
+#github {
+color: mediumaquamarine;
+}
+
+#facebook {
+color: mediumaquamarine;
+}
+
+#twitter {
+color: mediumaquamarine;
+}
+
+#small-words {
+    font-size: small;
+}
+
